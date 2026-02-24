@@ -3,9 +3,7 @@
  * MSSV:      PS48358
  * Lớp:       CS21301
  *****************************************************************************/
-
-
- // Tạo file asm2.c và hoàn thiện nội dung Assignment từ nội dung file asm1.c
+// Tạo file asm2.c và hoàn thiện nội dung Assignment từ nội dung file asm1.c
 // Danh sách các chức năng trong ASM1:
 // 1. Chức năng số 1: Kiểm tra số nguyên
 // 2. Chức năng số 2. Tìm Ước số chung và bội số chung của 2 số
@@ -62,7 +60,8 @@ int main()
         switch (chonChucNang)
         {
         case 1:
-        { // Gọi hàm kiểm tra số nguyên
+        // Gọi hàm kiểm tra số nguyên
+        {
             printf("DA CHON CHUC NANG 1: KIEM TRA SO NGUYEN\n");
             printf("nhap so can kiem tra: ");
             float songuyen;
